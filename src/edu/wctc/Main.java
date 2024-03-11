@@ -51,7 +51,6 @@ public class Main {
             driversLicense.setYY(YY);
             driversLicense.setNN(NN);
 
-            // Use the two formatter objects to print the driver's license numbers
             FloridaFormatter floridaFormatter = new FloridaFormatter();
             String floridaLicenseNumber = floridaFormatter.formatLicenseNumber(driversLicense);
             System.out.println("Florida Driver's License Number: " + floridaLicenseNumber);
