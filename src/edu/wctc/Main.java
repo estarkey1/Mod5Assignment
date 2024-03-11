@@ -60,7 +60,7 @@ public class Main {
             System.out.println("Wisconsin Driver's License Number: " + wisconsinLicenseNumber);
 
         } catch (Exception e) {
-            // Print exception message and exit the program
+            // Print exception message, end program
             System.out.println(e.getMessage());
         }
     }

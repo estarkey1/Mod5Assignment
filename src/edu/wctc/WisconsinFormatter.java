@@ -6,6 +6,7 @@ class WisconsinFormatter implements DriversLicenseFormatter {
     public String formatLicenseNumber(DriversLicense driversLicense) {
         String SSSS = driversLicense.getSSSS();
         int FFF = driversLicense.getFFF();
+        // I think YY is not used because Florida and Wisconsin formatted differently, need to fix to properly format
         int YY = driversLicense.getYY();
         int DDD = driversLicense.getDDD();
         int NN = driversLicense.getNN();

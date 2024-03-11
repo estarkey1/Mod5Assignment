@@ -8,6 +8,8 @@ class FirstNameUtility {
     private Map<String, Integer> firstInitialCodeMap = new HashMap<>();
     private Map<String, Integer> middleInitialCodeMap = new HashMap<>();
 
+    // Code from Canvas page
+
     public FirstNameUtility() {
         firstNameCodeMap.put("ALBERT", 20);
         firstNameCodeMap.put("ALICE", 20);
@@ -118,6 +120,8 @@ class FirstNameUtility {
         middleInitialCodeMap.put("Y", 19);
         middleInitialCodeMap.put("Z", 19);
     }
+
+    // End of Canvas page code
 
     public int encodeFirstName(String firstName, String middleInitial) throws MissingNameException {
         if (firstName.isBlank()) {
