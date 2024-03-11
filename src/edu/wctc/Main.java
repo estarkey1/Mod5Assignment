@@ -45,9 +45,8 @@ public class Main {
             int DDD = monthDayGenderUtility.encodeMonthDayGender(year, month, day, genderCode);
             driversLicense.setDDD(DDD);
 
-            // Set the remaining fields (YY and NN) based on your logic
-            int YY = year % 100; // Take the last two digits of the year
-            int NN = 0; // Set overflow to 0 for simplicity, adjust as needed
+            int YY = year % 100;
+            int NN = 0;
 
             driversLicense.setYY(YY);
             driversLicense.setNN(NN);
